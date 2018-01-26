@@ -36,7 +36,7 @@ namespace Lab5
         public static void RollTheDice(Random rollDice, int diceSides)
         {
 
-            int rolling = rollDice.Next(1, diceSides);
+            int rolling = rollDice.Next(1, diceSides + 1);
             Console.WriteLine(rolling);
 
         }
